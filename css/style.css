@@ -50,8 +50,27 @@ body {
 }
 
 [class*="__container"]{ /* любой объект в котором содержится класс __container к нему будут применены вот эти стили  */
-    max-width: 1057px;
+    max-width: 1087px; /* нужно разширить на 30пикс */
     margin: 0 auto; /* выстраивание по центру */
+    padding: 0 15px;
+}
+/*PC*/
+@media (max-width: 1087px){  /*это ширина нашей страницы*/
+    [class*="__container"]{
+        max-width: 970px;
+    }
+}
+/*TABLET*/
+@media (max-width: 991.98px){
+    [class*="__container"]{
+        max-width: 750px;
+    }
+}
+/*MOBILE*/
+@media (max-width: 767.98px){
+    [class*="__container"]{
+        max-width: none;
+    }
 }
 
 .header {
@@ -105,6 +124,18 @@ body {
     color: black;
     letter-spacing: 1px;
 }
+@media (max-width: 991.98px){  /*это ширина нашей страницы*/
+    .header__container{
+        min-height: 80px;
+    }
+    .header__button{
+        flex: 0 0  170px;
+    }
+    .menu__item{
+        margin: 0 30px 0 0;
+    }
+
+}
 
 
 .button {
@@ -132,3 +163,7 @@ body {
 .button_blue:hover{
     background-color: #78a6ef;
 }
+
+
+
+
