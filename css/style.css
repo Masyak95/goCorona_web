@@ -223,7 +223,7 @@ body {
     background-color: #78a6ef;
 }
 
-/*______________________________________________ _____________________________________________________________________*/
+/*___________________________________________________________________________________________________________________*/
 .close-icon-menu,
 .icon-menu{
     display: none;
@@ -280,7 +280,54 @@ body {
         display: flex;
     }
 }
+/*____________________________________________________________________________________________________________________*/
+.get-started {
+}
 
+.get-started__container {
+}
+
+.get-started__content {
+}
+
+.get-started__block-text {
+}
+
+.block-text__title_blue {
+}
+
+.block-text__title {
+}
+
+.block-text__text {
+}
+
+.block-text__button {
+}
+
+.button {
+}
+
+.get-started__video {
+}
+
+.video-get-started {
+}
+
+.video-get-started__icon {
+}
+
+.video-get-started__body {
+}
+
+.video-get-started__title {
+}
+
+.video-get-started__text {
+}
+
+.get-started__image {
+}
 
 
 
