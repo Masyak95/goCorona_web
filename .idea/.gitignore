@@ -1,8 +1,8 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
 .idea/
 /corona
 /corona.pub
+# Editor-based HTTP Client requests
+/httpRequests/
